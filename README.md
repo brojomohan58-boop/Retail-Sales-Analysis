@@ -24,9 +24,9 @@
 
 **Brojo Mohan Dutta**
 
-**Google Data Analytics Professional Certificate**
+**InternNova Data Analytics Internship**
 
-**Capstone Project 2**
+**Week 6 Assignment: Git, GitHub & Final Data Analytics Project**
 
 ---
 
@@ -104,7 +104,7 @@ The analysis focuses on:
 # 🔄 Project Workflow
 
 <p align="center">
-<img src="05_documentation/workflow.png" width="70%">
+<img src="05_documentation/Workflow.png" width="70%">
 </p>
 
 The project followed this analytical workflow:
@@ -275,6 +275,8 @@ Retail-Sales-Analysis/
 │   └── Retail_Sales_Dashboard.jpg
 │
 ├── 05_documentation
+│   ├── Retail_Sales_Performance_Analytics_Presentation.pptx
+│   ├── Retail_Sales_Performance_Analytics_Presentation.pdf
 │   ├── Retail_Sales_Performance_Analysis_Report.docx
-│   ├── Retail_Sales_Performance_Analytics.pptx
-│   └── Git, GitHub & Final Data Analytics Project Report.docx
+│   ├── Retail_Sales_Performance_Analysis_Report.pdf
+│   └── Workflow.png
