@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_cost
+P01,Wireless Mouse,Accessories,450
+P02,Mechanical Keyboard,Accessories,1800
+P03,USB-C Hub,Accessories,900
+P04,Laptop Stand,Accessories,1100
+P05,Webcam HD,Electronics,2200
+P06,Bluetooth Speaker,Electronics,1600
+P07,Noise Cancelling Headphones,Electronics,4200
+P08,Portable SSD 1TB,Storage,5200
+P09,Smartwatch,Wearables,6500
+P10,Gaming Chair,Furniture,8900

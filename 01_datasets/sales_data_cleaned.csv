@@ -1,0 +1,61 @@
+sale_id,order_date,product_id,region,payment_method,quantity,unit_price,sales_amount,product_name,category,unit_cost,total_cost,profit
+5001,2024-06-01,P05,West,Debit Card,9,3299.0,29691.0,Webcam HD,Electronics,2200,19800,9891.0
+5002,2024-06-03,P10,North,Debit Card,4,14999.0,59996.0,Gaming Chair,Furniture,8900,35600,24396.0
+5003,2024-06-05,P07,West,UPI,8,6999.0,55992.0,Noise Cancelling Headphones,Electronics,4200,33600,22392.0
+5004,2024-06-07,P04,South,Debit Card,8,1999.0,15992.0,Laptop Stand,Accessories,1100,8800,7192.0
+5005,2024-06-09,P04,West,UPI,5,1999.0,9995.0,Laptop Stand,Accessories,1100,5500,4495.0
+5006,2024-06-11,P08,East,Credit Card,8,8499.0,67992.0,Portable SSD 1TB,Storage,5200,41600,26392.0
+5007,2024-06-13,P08,South,Cash on Delivery,6,8499.0,50994.0,Portable SSD 1TB,Storage,5200,31200,19794.0
+5008,2024-06-15,P10,South,Cash on Delivery,7,14999.0,104993.0,Gaming Chair,Furniture,8900,62300,42693.0
+5009,2024-06-17,P08,South,UPI,3,8499.0,25497.0,Portable SSD 1TB,Storage,5200,15600,9897.0
+5010,2024-06-19,P09,North,Debit Card,1,10999.0,10999.0,Smartwatch,Wearables,6500,6500,4499.0
+5011,2024-06-21,P10,South,Cash on Delivery,6,14999.0,89994.0,Gaming Chair,Furniture,8900,53400,36594.0
+5012,2024-06-23,P09,West,UPI,4,10999.0,43996.0,Smartwatch,Wearables,6500,26000,17996.0
+5013,2024-06-25,P08,West,Credit Card,1,8499.0,8499.0,Portable SSD 1TB,Storage,5200,5200,3299.0
+5014,2024-06-27,P07,East,Credit Card,6,6999.0,41994.0,Noise Cancelling Headphones,Electronics,4200,25200,16794.0
+5015,2024-06-29,P05,West,UPI,8,3299.0,26392.0,Webcam HD,Electronics,2200,17600,8792.0
+5016,2024-07-01,P01,East,UPI,5,799.0,3995.0,Wireless Mouse,Accessories,450,2250,1745.0
+5017,2024-07-03,P08,East,UPI,9,8499.0,76491.0,Portable SSD 1TB,Storage,5200,46800,29691.0
+5018,2024-07-05,P01,South,Debit Card,5,799.0,3995.0,Wireless Mouse,Accessories,450,2250,1745.0
+5019,2024-07-07,P08,West,Credit Card,1,8499.0,8499.0,Portable SSD 1TB,Storage,5200,5200,3299.0
+5020,2024-07-09,P07,West,Credit Card,3,6999.0,20997.0,Noise Cancelling Headphones,Electronics,4200,12600,8397.0
+5021,2024-07-11,P04,West,Debit Card,1,1999.0,1999.0,Laptop Stand,Accessories,1100,1100,899.0
+5022,2024-07-13,P06,East,Debit Card,8,2799.0,22392.0,Bluetooth Speaker,Electronics,1600,12800,9592.0
+5023,2024-07-15,P09,South,Debit Card,7,10999.0,76993.0,Smartwatch,Wearables,6500,45500,31493.0
+5024,2024-07-17,P09,North,Credit Card,3,10999.0,32997.0,Smartwatch,Wearables,6500,19500,13497.0
+5025,2024-07-19,P08,North,Debit Card,6,8499.0,50994.0,Portable SSD 1TB,Storage,5200,31200,19794.0
+5026,2024-07-21,P06,South,Credit Card,2,2799.0,5598.0,Bluetooth Speaker,Electronics,1600,3200,2398.0
+5027,2024-07-23,P01,West,Debit Card,1,799.0,799.0,Wireless Mouse,Accessories,450,450,349.0
+5028,2024-07-25,P01,South,Cash on Delivery,1,799.0,799.0,Wireless Mouse,Accessories,450,450,349.0
+5029,2024-07-27,P03,South,Debit Card,2,1599.0,3198.0,USB-C Hub,Accessories,900,1800,1398.0
+5030,2024-07-29,P09,North,Debit Card,2,10999.0,21998.0,Smartwatch,Wearables,6500,13000,8998.0
+5031,2024-07-31,P10,West,Credit Card,3,14999.0,44997.0,Gaming Chair,Furniture,8900,26700,18297.0
+5032,2024-08-02,P07,East,UPI,4,6999.0,27996.0,Noise Cancelling Headphones,Electronics,4200,16800,11196.0
+5033,2024-08-04,P05,East,UPI,3,3299.0,9897.0,Webcam HD,Electronics,2200,6600,3297.0
+5034,2024-08-06,P10,North,Debit Card,1,14999.0,14999.0,Gaming Chair,Furniture,8900,8900,6099.0
+5035,2024-08-08,P08,North,Debit Card,5,8499.0,42495.0,Portable SSD 1TB,Storage,5200,26000,16495.0
+5036,2024-08-10,P04,South,UPI,9,1999.0,17991.0,Laptop Stand,Accessories,1100,9900,8091.0
+5037,2024-08-12,P04,North,UPI,8,1999.0,15992.0,Laptop Stand,Accessories,1100,8800,7192.0
+5038,2024-08-14,P09,West,Cash on Delivery,2,10999.0,21998.0,Smartwatch,Wearables,6500,13000,8998.0
+5039,2024-08-16,P04,West,UPI,5,1999.0,9995.0,Laptop Stand,Accessories,1100,5500,4495.0
+5040,2024-08-18,P01,West,Debit Card,4,799.0,3196.0,Wireless Mouse,Accessories,450,1800,1396.0
+5041,2024-08-20,P02,North,Credit Card,7,3499.0,24493.0,Mechanical Keyboard,Accessories,1800,12600,11893.0
+5042,2024-08-22,P01,North,UPI,8,799.0,6392.0,Wireless Mouse,Accessories,450,3600,2792.0
+5043,2024-08-24,P01,West,Credit Card,2,799.0,1598.0,Wireless Mouse,Accessories,450,900,698.0
+5044,2024-08-26,P07,North,Credit Card,1,6999.0,6999.0,Noise Cancelling Headphones,Electronics,4200,4200,2799.0
+5045,2024-08-28,P08,East,Debit Card,3,8499.0,25497.0,Portable SSD 1TB,Storage,5200,15600,9897.0
+5046,2024-08-30,P08,East,Cash on Delivery,8,8499.0,67992.0,Portable SSD 1TB,Storage,5200,41600,26392.0
+5047,2024-09-01,P10,East,UPI,1,14999.0,14999.0,Gaming Chair,Furniture,8900,8900,6099.0
+5048,2024-09-03,P04,West,UPI,1,1999.0,1999.0,Laptop Stand,Accessories,1100,1100,899.0
+5049,2024-09-05,P01,West,Cash on Delivery,9,799.0,7191.0,Wireless Mouse,Accessories,450,4050,3141.0
+5050,2024-09-07,P08,West,UPI,3,8499.0,25497.0,Portable SSD 1TB,Storage,5200,15600,9897.0
+5051,2024-09-09,P08,South,Credit Card,1,8499.0,8499.0,Portable SSD 1TB,Storage,5200,5200,3299.0
+5052,2024-09-11,P08,East,Cash on Delivery,6,8499.0,50994.0,Portable SSD 1TB,Storage,5200,31200,19794.0
+5053,2024-09-13,P01,West,Credit Card,6,799.0,4794.0,Wireless Mouse,Accessories,450,2700,2094.0
+5054,2024-09-15,P06,West,UPI,1,2799.0,2799.0,Bluetooth Speaker,Electronics,1600,1600,1199.0
+5055,2024-09-17,P05,South,Cash on Delivery,1,3299.0,3299.0,Webcam HD,Electronics,2200,2200,1099.0
+5056,2024-09-19,P04,North,Debit Card,9,1999.0,17991.0,Laptop Stand,Accessories,1100,9900,8091.0
+5057,2024-09-21,P02,North,Credit Card,5,3499.0,17495.0,Mechanical Keyboard,Accessories,1800,9000,8495.0
+5058,2024-09-23,P04,West,UPI,6,1999.0,11994.0,Laptop Stand,Accessories,1100,6600,5394.0
+5059,2024-09-25,P02,South,UPI,2,3499.0,6998.0,Mechanical Keyboard,Accessories,1800,3600,3398.0
+5060,2024-09-27,P04,North,UPI,5,1999.0,9995.0,Laptop Stand,Accessories,1100,5500,4495.0
