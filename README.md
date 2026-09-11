@@ -182,6 +182,8 @@ Analysis includes:
 
 ![Retail Sales Dashboard](04_power_bi/Retail_Sales_Dashboard.jpg)
 
+**Live Dashboard:** `[🔗 INSERT LIVE POWER BI DASHBOARD LINK HERE]`
+
 The Power BI dashboard provides an executive view of:
 
 - Total Sales
@@ -280,3 +282,4 @@ Retail-Sales-Analysis/
 │   ├── Retail_Sales_Performance_Analysis_Report.docx
 │   ├── Retail_Sales_Performance_Analysis_Report.pdf
 │   └── Workflow.png
+```
