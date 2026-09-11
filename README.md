@@ -1,103 +1,280 @@
-# Retail-Sales-Analysis
-Sales data analysis and visualization project using Python, Power BI, and Git/GitHub.
+# 📊 Retail Sales Performance Analytics
 
-# Retail Sales Performance Analysis — Data Analytics Capstone
+**End-to-end analytics case study** — analyzing 60 cleaned retail transactions to diagnose a sharp Q3 revenue decline, identify the strongest regions and product categories, and translate the findings into actionable Q4 business recommendations using Python and Power BI.
 
-## Project Overview
-End-to-end data analytics project analyzing 60 retail sales transactions
-(June-September 2024) using Python for cleaning/EDA and Power BI for
-interactive business intelligence reporting.
+</p>
 
-## Problem Statement
-The business observed fluctuating monthly performance and needed a
-data-driven view of revenue trends, regional and category performance,
-payment channel behavior, and profitability to guide Q4 decision-making.
+<p align="center">
 
-## Dataset Description
-- sales_fact.csv: 61 raw transaction records (sale_id, order_date,
-  product_id, region, payment_method, quantity, unit_price, sales_amount)
-- products.csv: 10 products (product_id, product_name, category, unit_cost)
-- Final cleaned dataset (sales_data_cleaned.csv): 60 transactions,
-  13 columns, 0 missing values, 0 duplicates
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-## Tools Used
-- Git & GitHub - version control
-- Python (Pandas, NumPy) - data cleaning and EDA
-- Matplotlib & Seaborn - visualization
-- Power BI - interactive dashboard and DAX measures
+</p>
 
-## Data Cleaning Process
-- Removed unnecessary columns, fixed data types
-- Standardized inconsistent text values (region casing)
-- Imputed missing values (quantity, unit_price)
-- Corrected negative quantity error
-- Recalculated sales_amount, merged with product dimension table
-- Calculated total_cost and profit, removed duplicates
+---
 
-## Exploratory Data Analysis (EDA)
-- Descriptive statistics, correlation analysis, IQR-based outlier detection
-- 8 visualizations covering trend, regional, category, payment, and
-  distribution analysis
+# 👨‍💻 Author
 
-## Power BI Dashboard
-- 4 KPIs with Month-over-Month trend indicators
-- 5 interactive visualizations
-- 3 slicers (Month, Region, Category)
+**Brojo Mohan Dutta**
 
-## Key Insights
-[See Task 7 above - 5 insights covering revenue decline, regional/category
-performance, payment method gaps, and price-vs-volume drivers]
+**Google Data Analytics Professional Certificate**
 
-## Business Recommendations
-[See Task 7 above - 2 recommendations on Q3 slump investigation and
-Storage/South-East inventory concentration]
+**Capstone Project 2**
 
-## Conclusion
-This project demonstrates a complete data analytics workflow from raw
-data to business-ready insights, using consistent, cross-validated
-figures across both the Python and Power BI phases.
+---
 
-## Repository Contents
-- /data - raw and cleaned datasets
-- /notebooks - Dataset_Selection_Data_Preparation.ipynb, EDA_Visualizations.ipynb
-- /dashboard - Power BI .pbix file and screenshots
-- README.md - this file
+# 📌 Project Overview
 
+This end-to-end data analytics project analyzes retail sales transactions from **June 2024 to September 2024** to understand a sharp decline in revenue and identify the key factors that should influence Q4 business decisions.
 
+Using **Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI, DAX, and Git/GitHub**, the project transforms raw transactional data into reliable analytical data, explores sales patterns and relationships, and communicates the findings through an interactive business dashboard.
 
-## Key Insights
+The project follows the **Ask → Prepare → Process → Analyze → Share → Act** framework, taking the analysis from raw CSV files through data cleaning and EDA to Power BI reporting and business recommendations.
 
-- Total sales reached approximately ₹1.50 million across 60 transactions.
-- Monthly sales declined from approximately ₹643K in June to ₹185K in September, indicating a significant downward trend.
-- South generated the highest regional sales at approximately ₹415K.
-- Storage was the highest-performing category with approximately ₹510K in sales.
-- UPI generated the highest sales among the payment methods at approximately ₹405K.
+---
 
-## Business Recommendations
+# 🎯 Business Problem
 
-- Investigate the decline in monthly sales after June by reviewing demand, product availability, pricing, and regional performance.
-- Review inventory and sales concentration in the Storage category and South/East regions to identify opportunities for better inventory planning and targeted promotions.
+The retail business experienced a significant slowdown in revenue throughout Q3 2024.
 
-## Conclusion
+The primary business question is:
 
-This project demonstrates a complete data analytics workflow from raw data to business-ready insights, using Python for data cleaning and exploratory analysis and Power BI for interactive reporting.
+> **Why is retail revenue declining from June to September 2024, where is the revenue coming from, and what actions should the business take to stabilize performance in Q4?**
 
-## Repository Contents
+The analysis focuses on:
 
-- `01_datasets` – Raw and cleaned datasets
-- `02_python_cleaning` – Data cleaning and preparation notebooks/scripts
-- `03_python_eda&visualization` – EDA notebook, Python scripts, and visualization images
-- `04_power_bi` – Power BI dashboard file and dashboard screenshot
-- `05_documentation` – Project report and presentation
-- `README.md` – Project documentation
-- `LICENSE` – Repository license
+- Monthly revenue trends
+- Regional performance
+- Product category performance
+- Payment method performance
+- Transaction-level outliers
+- Price versus quantity as revenue drivers
+- Actionable Q4 business opportunities
 
-## Key Findings
+---
 
-- Total sales were approximately ₹1.50 million across 60 transactions.
-- Total profit was approximately ₹606.18K, resulting in a profit margin of 40.36%.
-- June recorded the highest monthly sales at approximately ₹643K.
-- South recorded the highest regional sales at approximately ₹415K.
-- Storage was the highest-performing category with approximately ₹510K in sales.
-- UPI generated the highest sales among the payment methods at approximately ₹405K.
-- Two high-value Gaming Chair transactions were identified as genuine bulk orders.
+# 📊 Project Summary
+
+| Category | Details |
+|-----------|---------|
+| Project | Retail Sales Performance Analytics |
+| Author | Brojo Mohan Dutta |
+| Course | Google Data Analytics Professional Certificate |
+| Case Study | Capstone Project 2 |
+| Dataset | Retail Transactional Sales Dataset |
+| Raw Transactions | **61** |
+| Clean Transactions | **60** |
+| Time Period | **June–September 2024** |
+| Product Categories | **5** |
+| Regions | **4** |
+| Payment Methods | **4** |
+| Total Sales | **₹1.50M** |
+| Total Profit | **₹606.18K** |
+| Profit Margin | **40.36%** |
+| Tools | Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI, DAX, Jupyter, Git/GitHub |
+| Dashboard | Interactive Power BI Dashboard |
+| Project Type | End-to-End Data Analytics |
+
+---
+
+# 🛠 Technology Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python | Data preparation, transformation and analytical workflow |
+| Pandas | Data cleaning, manipulation and aggregation |
+| NumPy | Numerical analysis and data processing |
+| Matplotlib | Exploratory data visualization |
+| Seaborn | Statistical visualization and correlation analysis |
+| Jupyter Notebook | Interactive Python analysis and documentation |
+| Power BI | Interactive dashboard and business reporting |
+| DAX | KPI and Month-over-Month calculations |
+| Git | Version control |
+| GitHub | Repository management and project documentation |
+
+---
+
+# 🔄 Project Workflow
+
+<p align="center">
+<img src="05_documentation/workflow.png" width="70%">
+</p>
+
+The project followed this analytical workflow:
+
+1. Load raw retail transaction and product datasets
+2. Inspect data structure, data types, missing values and duplicates
+3. Clean and standardize the transactional data using Python
+4. Merge transaction data with the product dimension
+5. Calculate sales, cost and profit metrics
+6. Perform exploratory data analysis using Python
+7. Identify trends, correlations and transaction-level outliers
+8. Build an interactive Power BI dashboard
+9. Validate Power BI results against Python outputs
+10. Translate findings into business recommendations
+
+---
+
+# 📂 Dataset Overview
+
+The project uses two primary source datasets:
+
+### `sales_fact.csv`
+
+Raw transaction-level sales records containing:
+
+- Sale ID
+- Order Date
+- Product ID
+- Region
+- Payment Method
+- Quantity
+- Unit Price
+- Sales Amount
+- Notes
+
+### `products.csv`
+
+Product dimension table containing:
+
+- Product ID
+- Product Name
+- Category
+- Unit Cost
+
+The two datasets were combined during the data preparation stage to create the final analysis-ready dataset.
+
+The raw dataset contained **61 transactions**, while the final cleaned dataset contained **60 transactions across 13 columns**.
+
+---
+
+# 📈 Exploratory Data Analysis
+
+The EDA phase was performed using **Pandas, NumPy, Matplotlib and Seaborn**.
+
+Analysis includes:
+
+- Descriptive Statistics
+- Monthly Sales Analysis
+- Regional Sales Analysis
+- Category Sales Analysis
+- Payment Method Analysis
+- Correlation Analysis
+- Sales Distribution Analysis
+- IQR-Based Outlier Detection
+- Unit Price vs Sales Analysis
+- Category-Level Sales Distribution
+- Transaction Count Analysis
+- Correlation Heatmap
+
+---
+
+# 📊 Dashboard Preview
+
+## Retail Sales Dashboard
+
+![Retail Sales Dashboard](04_power_bi/Retail_Sales_Dashboard.jpg)
+
+The Power BI dashboard provides an executive view of:
+
+- Total Sales
+- Total Profit
+- Total Transactions
+- Profit Margin
+- Monthly Sales & Profit Trend
+- Sales by Category
+- Category × Region Matrix
+- Sales by Payment Method
+
+Interactive slicers are available for:
+
+- Month
+- Region
+- Category
+
+---
+
+# 📈 Key Findings
+
+- Revenue declined consistently every month, falling from **₹643,016 in June to ₹184,544 in September**, representing an approximately **71% peak-to-trough decline**.
+- **South and East** were the strongest regions, generating approximately **₹825K or 55% of total sales** combined.
+- **Storage** was the top-performing category, contributing approximately **34% of total revenue (₹509,940)**.
+- **Credit Card** sales were significantly lower at **₹295,451**, compared with approximately ₹398K–₹405K across UPI, Debit Card and Cash on Delivery.
+- **Unit Price** had a stronger correlation with Sales Amount (**0.656**) than Quantity (**0.474**), suggesting that pricing and product mix were more influential revenue drivers than order size in this dataset.
+- Sales Amount and Profit showed an almost perfect correlation of **0.998**, reflecting the strong relationship between revenue and profitability.
+- Two high-value **Gaming Chair** transactions exceeded the IQR upper bound, but were retained because they represented legitimate bulk orders rather than data errors.
+- The final dataset contained **0 missing values and 0 duplicates**, providing a validated foundation for EDA and Power BI reporting.
+
+---
+
+# 💡 Business Recommendations
+
+### 🥇 Recover the Revenue Trend
+
+Launch a targeted Q4 retention and revenue-recovery initiative.
+
+First determine whether the decline is primarily driven by transaction volume, average order value, inventory availability, marketing activity, or seasonality before allocating significant campaign budget.
+
+---
+
+### 🥈 Double Down on Proven Strength
+
+Prioritize **Storage products in the South and East regions** for inventory availability, targeted promotions and marketing investment.
+
+This focuses resources on the strongest existing revenue combination rather than distributing resources evenly across all regions and categories.
+
+---
+
+### 🥉 Fix the Credit Card Gap
+
+Investigate the significant performance gap in Credit Card transactions.
+
+Audit potential issues involving:
+
+- Payment failures
+- Authorization problems
+- Checkout friction
+- Processing issues
+- Customer payment preferences
+
+A targeted improvement could help recover additional revenue if the gap is caused by payment or checkout friction.
+
+---
+
+# 📂 Repository Structure
+
+```text
+Retail-Sales-Analysis/
+
+│── README.md
+│── LICENSE
+
+├── 01_datasets
+│   ├── products.csv
+│   ├── sales_data_cleaned.csv
+│   └── sales_fact.csv
+│
+├── 02_python_cleaning
+│   ├── Dataset_Selection&Data_Preparation.ipynb
+│   └── Dataset_Selection&Data_Preparation.py
+│
+├── 03_python_eda&visualization
+│   ├── eda_visualizations
+│   ├── EDA&Visualizations.ipynb
+│   └── Exploratory_Data_Analysis_&_Visualizations.py
+│
+├── 04_power_bi
+│   ├── Retail Sales Performance Dashboard.pbix
+│   └── Retail_Sales_Dashboard.jpg
+│
+├── 05_documentation
+│   ├── Retail_Sales_Performance_Analysis_Report.docx
+│   ├── Retail_Sales_Performance_Analytics.pptx
+│   └── Git, GitHub & Final Data Analytics Project Report.docx
